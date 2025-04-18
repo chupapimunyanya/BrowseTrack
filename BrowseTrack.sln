@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowseTrack", "BrowseTrack\BrowseTrack.csproj", "{C1045CC6-1417-05F1-699F-6B166957DC19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowseTracker_Tests", "BrowseTracker_Tests\BrowseTracker_Tests.csproj", "{AF0245C9-7095-1113-9CF0-B7FAE464D837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowseTracker_Integration_Tests", "BrowseTracker_Integration_Tests\BrowseTracker_Integration_Tests.csproj", "{514FC350-3A42-4F7D-9D15-F8D19D376A0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AF0245C9-7095-1113-9CF0-B7FAE464D837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF0245C9-7095-1113-9CF0-B7FAE464D837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF0245C9-7095-1113-9CF0-B7FAE464D837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514FC350-3A42-4F7D-9D15-F8D19D376A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514FC350-3A42-4F7D-9D15-F8D19D376A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514FC350-3A42-4F7D-9D15-F8D19D376A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514FC350-3A42-4F7D-9D15-F8D19D376A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
